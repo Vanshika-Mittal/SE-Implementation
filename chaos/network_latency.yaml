@@ -1,0 +1,17 @@
+apiVersion: chaos-mesh.org/v1alpha1
+kind: NetworkChaos
+metadata:
+  name: net-delay-ml-api
+  namespace: default
+spec:
+  action: delay
+  mode: all
+  selector:
+    labelSelectors:
+      app: ml-api
+  delay:
+    latency: "500ms"
+    jitter: "100ms"
+  duration: "30s"
+  scheduler:
+    cron: '@every 2m'
