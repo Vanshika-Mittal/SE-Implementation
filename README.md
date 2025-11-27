@@ -191,3 +191,15 @@ Generates:
 * SHAP feature importance
 * Explanation of degradation under chaos
 
+
+## Demonstration
+<img width="1853" height="1001" alt="image" src="https://github.com/user-attachments/assets/020f0ae9-43c7-4356-be06-7ac02cbb8815" />
+
+<img width="1853" height="1001" alt="image" src="https://github.com/user-attachments/assets/fd801315-adbe-4680-9837-244e84c01902" />
+
+<img width="1853" height="1001" alt="image" src="https://github.com/user-attachments/assets/4296056b-f950-4f3c-a789-8e821e922c2d" />
+
+
+
+
+
